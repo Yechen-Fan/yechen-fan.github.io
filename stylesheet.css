@@ -66,7 +66,7 @@
 .news-list { list-style: none; margin: 0; padding: 0 20px; }
 .news-list li { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 18px; align-items: baseline; padding: 12px 0; }
 .news-list li + li { border-top: 1px solid #e8e8e8; }
-.news-list time { color: #777; font-size: 14px; white-space: nowrap; }
+.news-list time { color: #111; font-size: inherit; white-space: nowrap; }
 .news-list a { text-decoration: underline; text-underline-offset: 3px; text-decoration-color: #b9cee3; }
 .reviewer-list { list-style: none; margin: 0; padding: 0 20px 12px; }
 .reviewer-list li { margin: 0 0 5px; }
