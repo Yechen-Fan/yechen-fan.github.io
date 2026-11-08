@@ -63,7 +63,7 @@
 .homepage h3 { margin: 0 0 4px; font-size: 17px; line-height: 1.3; font-weight: 600; }
 .entry-text p { margin: 8px 0; }
 .link-divider { white-space: pre; }
-.news-list { list-style: none; margin: 0; padding: 0 20px; }
+.news-list { list-style: none; width: fit-content; max-width: 100%; margin: 0; padding: 0 20px; }
 .news-list li { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 18px; align-items: baseline; padding: 8px 0; }
 .news-list li + li { border-top: 1px solid #e8e8e8; }
 .news-list time { color: #111; font-size: inherit; white-space: nowrap; }
