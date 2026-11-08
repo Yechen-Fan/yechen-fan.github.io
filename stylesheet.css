@@ -23,9 +23,9 @@
 .homepage h1 span { white-space: nowrap; }
 .profile { display: grid; grid-template-columns: 30% 70%; margin-bottom: 26px; }
 .profile-sidebar { padding: 4px 20px 0; text-align: center; }
-.portrait-link { display: block; width: 90%; margin: 0 auto; }
+.portrait-link { display: block; width: 140px; max-width: 100%; margin: 0 auto; }
 .portrait { display: block; width: 100%; height: auto; aspect-ratio: 1489 / 2136; object-fit: cover; border-radius: 15px; }
-.social-links { margin: 16px -20px 0; line-height: 1.4; white-space: nowrap; }
+.social-links { margin: 10px -20px 0; line-height: 1.4; white-space: nowrap; }
 .biography { min-width: 0; padding: 0 20px; text-align: justify; }
 .biography p { margin: 0 0 16px; }
 .biography p:last-child { margin-bottom: 0; }
@@ -62,7 +62,7 @@
   .homepage h1 { font-size: 30px; margin-bottom: 26px; }
   .profile { grid-template-columns: 1fr; gap: 28px; margin-bottom: 24px; }
   .profile-sidebar { padding: 0; }
-  .portrait-link { width: 170px; margin: 0 auto; }
+  .portrait-link { width: 140px; margin: 0 auto; }
   .biography { padding: 0; text-align: left; }
   .homepage h2 { padding: 0; margin-bottom: 22px; }
   .entry { grid-template-columns: 1fr; padding: 0 0 30px; gap: 14px; }
