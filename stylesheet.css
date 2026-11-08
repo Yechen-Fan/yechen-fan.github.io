@@ -23,19 +23,22 @@
 .homepage h1 span { white-space: nowrap; }
 .profile { display: grid; grid-template-columns: 25% 75%; margin-bottom: 26px; }
 .profile-sidebar { padding: 4px 8px 0; text-align: center; }
-.portrait-link { display: block; width: 140px; max-width: 100%; margin: 0 auto; }
+.portrait-link { display: block; width: 165px; max-width: 100%; margin: 0 auto; }
 .portrait { display: block; width: 100%; height: auto; aspect-ratio: 1489 / 2136; object-fit: cover; border-radius: 15px; }
-.social-links { margin: 10px -20px 0; line-height: 1.4; white-space: nowrap; }
+.social-links { display: flex; align-items: center; gap: 20px; margin-top: 18px; }
+.social-links a { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; color: #444; }
+.social-links svg { display: block; width: 25px; height: 25px; fill: currentColor; }
 .biography { min-width: 0; padding: 0 16px; text-align: justify; }
 .biography p { margin: 0 0 16px; }
 .biography p:last-child { margin-bottom: 0; }
 .career-goal { color: #d62728; font-weight: 600; }
-.section { position: relative; padding-top: 21px; margin-top: 23px; }
-.section::before { content: ''; position: absolute; inset: 0 0 auto; height: 1px; background: linear-gradient(to right, transparent, #999, transparent); }
+.section { position: relative; padding-top: 28px; margin-top: 28px; }
+.section::before { content: ''; position: absolute; inset: 0 0 auto; height: 1px; background: #dedede; }
 .homepage h2 { margin: 0 0 20px; padding: 0 20px; font-size: 22px; line-height: 1.3; font-weight: 600; }
 .entry { display: grid; grid-template-columns: 40% 60%; align-items: center; padding: 15px 15px 22px; gap: 0; }
 #publications h2 { margin-bottom: 12px; }
-#publications .entry { padding-top: 8px; padding-bottom: 16px; }
+#publications .entry { padding-top: 16px; padding-bottom: 16px; }
+#publications .entry + .entry { border-top: 1px solid #e8e8e8; }
 #publications .media-preview { aspect-ratio: 16 / 9; }
 #publications .entry:first-of-type .media-preview { aspect-ratio: 1914 / 928; }
 #publications .media-preview img { object-fit: cover; }
@@ -70,7 +73,7 @@
   .homepage h1 { font-size: 30px; margin-bottom: 26px; }
   .profile { grid-template-columns: 1fr; gap: 28px; margin-bottom: 24px; }
   .profile-sidebar { padding: 0; }
-  .portrait-link { width: 140px; margin: 0 auto; }
+  .portrait-link { width: 165px; margin: 0 auto; }
   .biography { padding: 0; text-align: left; }
   .homepage h2 { padding: 0; margin-bottom: 22px; }
   .entry { grid-template-columns: 1fr; padding: 0 0 30px; gap: 14px; }
